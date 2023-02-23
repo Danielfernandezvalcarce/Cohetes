@@ -1,0 +1,31 @@
+.linear-gradient{
+    background: linear-gradient(black, darkblue, blue,orange, cyan, lightblue);
+}
+main{
+    height: 5000px;
+}
+#sls{
+    position: absolute;
+    left: 80px;
+    top: 4800px;
+}
+#sojuz{
+    position: absolute;
+    left: 500px;
+    top: 4800px;
+}
+#spaceship{
+    position: absolute;
+    left: 800px;
+    top: 4800px;
+}
+#starship{
+    position: absolute;
+    left: 1300px;
+    top: 4800px;
+}
+#lider{
+    position: fixed;
+    width: 10%;
+    top: 250px;
+}

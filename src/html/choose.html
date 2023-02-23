@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/src/js/main.js"></script>
+</head>
+
+<body class="bg-dark" onload="escogeNave()">
+    <div class="d-flex justify-content-center align-items-center">
+        <h1 class="text-light">CHOOSE YOUR FIGHTER</h1>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="sls" class="card col d-flex justify-content-center align-items-center bg-primary" style="width: 18rem;">
+                <img src="/src/img/sls.png" width="200px" height="200px">
+                <div class="card-body">
+                    <button class="btn-success" value="sls"><a href="/src/html/race.html" class="text-white">NASA SLS</a></button>
+                </div>
+            </div>
+            <div id="sojouz" class="card col d-flex justify-content-center align-items-center bg-secondary" style="width: 18rem;">
+                <img src="/src/img/sojuz.webp" width="50px" height="200px">
+                <div class="card-body">
+                    <button class="btn-success" value="sojouz"><a href="/src/html/race.html" class="text-white">ROCOSMOS SOJOUZ</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div id="spaceship" class="card col d-flex justify-content-center align-items-center bg-danger" style="width: 18rem;">
+                <img src="/src/img/spaceship.png" width="130px" height="200px">
+                <div class="card-body">
+                    <button class="btn-success" value="spaceship"><a href="/src/html/race.html" class="text-white">NASA SPACESHIP</a></button>
+                </div>
+            </div>
+            <div id="starship" class="card col d-flex justify-content-center align-items-center bg-warning" style="width: 18rem;">
+                <img src="/src/img/starship.png" width="80px" height="200px">
+                <div class="card-body">
+                    <button class="btn-success" value="starship"><a href="/src/html/race.html" class="text-white">SPACEX STARSHIP</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="btn-light by-4"><a href="/src/html/index.html">Volver Atrás</a></button>
+    </div>
+</body>
+
+</html>
